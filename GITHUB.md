@@ -79,7 +79,7 @@ Dichos estados son modified, staged, committed y remote. A cada uno de ellos le 
 
 ![git-flow](/assets/git-flow.png)
 
-`
+
     # agregar los cambios de un archivo al staged
     git add archivo/directorio
     # agregar todos los cambios de todos los archivos al staged
@@ -107,4 +107,3 @@ Dichos estados son modified, staged, committed y remote. A cada uno de ellos le 
 
     #para descargar los cambios del repositorio remoto al local
     git pull
-`
