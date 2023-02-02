@@ -79,7 +79,6 @@ Dichos estados son modified, staged, committed y remote. A cada uno de ellos le 
 
 ![git-flow](/assets/git-flow.png)
 
-
     # agregar los cambios de un archivo al staged
     git add archivo/directorio
     # agregar todos los cambios de todos los archivos al staged
@@ -107,3 +106,55 @@ Dichos estados son modified, staged, committed y remote. A cada uno de ellos le 
 
     #para descargar los cambios del repositorio remoto al local
     git pull
+
+## Para reemplazar la rama master por main en GitHub
+
+    # Paso 1 
+    # Crea la rama local main y pásale el historial de la rama master
+    git branch -m master main
+
+    # Paso 2
+    # Haz un push de la nueva rama local main en el repositorio remoto de GitHub
+    git push -u origin main
+
+
+    # Paso 3
+    # Cambia el HEAD actual a la rama main
+    git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+
+    Paso 4
+    Cambia la rama default de master a main en tu repositorio de GitHub .
+
+    Para hacerlo, sigue las instrucciones de este enlace.
+
+    # Paso 5
+    # Elimina la rama master del repositorio remoto
+    git push origin --delete master
+
+## Ayuda
+
+    # ayuda en la terminal
+    git comando -h
+    # ayuda en el navegador
+    git help comando
+
+## Ignorar archivos
+
+En el archivo .gitignore incluimos todo lo que NO queramos incluir en nuestro repositorio. Lo podemos crear manualmente o con gitignore.io.
+
+    # esto es un comentario
+    archivo.ext
+    carpeta
+    /archivo_desde_raiz.ext
+    # ignorar todos los archivos que terminen en .log
+    *.log
+    # excepto production.log
+    !production.log
+    # ignorar los archivos terminados en .txt dentro de la carpeta doc,
+    # pero no en sus subcarpetas
+    doc/*.txt
+    # ignorar todos los archivos terminados en .txt dentro de la carpeta doc
+    # y también en sus subcarpetas
+    doc/**/*.txt
+    # podemos hacer uso de la siguiente app para agregar archivos a ignorar dependiendo de la tecnología
+    [gitignore-link](https://www.toptal.com/developers/gitignore)
