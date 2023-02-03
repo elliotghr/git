@@ -167,9 +167,8 @@ git clone https://github.com/usuario/repositorio.git
 
 Una rama nos permite aislar una nueva funcionalidad en nuestro código que después podremos añadir a la versión principal.
 
-Para poder hacer un push a una rama nueva se recomienda el comando-> git push -u origin nombre_rama
-    # crear rama
-    git branch nombre-rama
+Para poder hacer un push a una rama nueva se recomienda el comando-> git push -u origin nombre_rama # crear rama
+git branch nombre-rama
 
     # cambiar de rama
     git checkout nombre-rama
@@ -218,3 +217,23 @@ Manual Merge: La fusión hay que hacerla manual, para resolver conflictos de dup
     # ejecutamos el comando merge con la rama secundaria a fusionar
 
     git merge rama-secundaria
+
+# Cambios
+
+Puedes agregar modificaciones al último cambio
+
+    # sin editar el mensaje del último commit
+    git commit --amend --no-edit
+
+    # editando el mensaje del último commit
+    git commit --amend -m "nuevo mensaje para el último commit"
+
+    # eliminar el último commit
+    git reset --hard HEAD~1
+    Podemos desplazarnos en el historial del repositorio hacia atrás o adelante en cambios o ramas , sin afectar el repositorio como tal.
+
+    # cambiar a una rama
+    git checkout nombre-rama
+
+    # cambiar a un commit en particular
+    git checkout id-commit
