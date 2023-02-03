@@ -109,7 +109,7 @@ Dichos estados son modified, staged, committed y remote. A cada uno de ellos le 
 
 ## Para reemplazar la rama master por main en GitHub
 
-    # Paso 1 
+    # Paso 1
     # Crea la rama local main y pásale el historial de la rama master
     git branch -m master main
 
@@ -158,3 +158,43 @@ En el archivo .gitignore incluimos todo lo que NO queramos incluir en nuestro re
     doc/**/*.txt
     # podemos hacer uso de la siguiente app para agregar archivos a ignorar dependiendo de la tecnología
     [gitignore-link](https://www.toptal.com/developers/gitignore)
+
+## Clonar repositorios
+
+git clone https://github.com/usuario/repositorio.git
+
+## Ramas
+
+Una rama nos permite aislar una nueva funcionalidad en nuestro código que después podremos añadir a la versión principal.
+
+    # crear rama
+    git branch nombre-rama
+
+    # cambiar de rama
+    git checkout nombre-rama
+
+    # crear una rama y cambiarte a ella
+    git checkout -b rama
+
+    # eliminar rama
+    git branch -d nombre-rama
+
+    # eliminar ramas remotas
+    git push origin --delete nombre-rama
+
+    #eliminar rama (forzado)
+    git branch -D nombre-rama
+
+    # listar todas las ramas del repositorio
+    git branch
+
+    # lista ramas no fusionadas a la rama actual
+    git branch --no-merged
+
+    # lista ramas fusionadas a la rama actual
+    git branch --merged
+
+    # rebasar ramas
+    # nos sirve para poner cierta rama como principal
+    git checkout rama-secundaria
+    git rebase rama-principal
