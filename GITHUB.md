@@ -167,6 +167,7 @@ git clone https://github.com/usuario/repositorio.git
 
 Una rama nos permite aislar una nueva funcionalidad en nuestro código que después podremos añadir a la versión principal.
 
+Para poder hacer un push a una rama nueva se recomienda el comando-> git push -u origin nombre_rama
     # crear rama
     git branch nombre-rama
 
