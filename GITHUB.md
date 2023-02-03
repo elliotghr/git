@@ -109,7 +109,7 @@ Dichos estados son modified, staged, committed y remote. A cada uno de ellos le 
 
 ## Para reemplazar la rama master por main en GitHub
 
-    # Paso 1 
+    # Paso 1
     # Crea la rama local main y pásale el historial de la rama master
     git branch -m master main
 
@@ -158,3 +158,22 @@ En el archivo .gitignore incluimos todo lo que NO queramos incluir en nuestro re
     doc/**/*.txt
     # podemos hacer uso de la siguiente app para agregar archivos a ignorar dependiendo de la tecnología
     [gitignore-link](https://www.toptal.com/developers/gitignore)
+
+## Fusiones
+
+Une dos ramas. Para hacer una fusión necesitamos:
+
+Situarnos en la rama que se quedará con el contenido fusionado.
+Fusionar.
+Cuando se fusionan ramas se pueden dar 2 resultados diferentes:
+
+Fast-Forward: La fusión se hace automática, no hay conflictos por resolver.
+Manual Merge: La fusión hay que hacerla manual, para resolver conflictos de duplicación de contenido.
+
+    # nos cambiamos a la rama principal que quedará de la fusión
+
+    git checkout rama-principal
+
+    # ejecutamos el comando merge con la rama secundaria a fusionar
+
+    git merge rama-secundaria
