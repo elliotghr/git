@@ -264,3 +264,88 @@ Podemos eliminar el historial de cambios del proyecto hacia adelante con respect
     # desecha todo el historial y regresa al commit especificado
 
     git reset --hard id-commit
+
+# Reseteo del historial
+
+Podemos eliminar el historial de cambios del proyecto hacia adelante con respecto de un punto de referencia.
+
+    #nos muestra el listado de archivos nuevos (untracked), borrados o editados
+    git status
+
+    # borra HEAD
+    git reset --soft
+
+    # borra HEAD y Staging
+    git reset --mixed
+
+    # borra todo: HEAD, Staging y Working Directory
+    git reset --hard
+
+    # deshace todos los cambios después del commit indicado, preservando los cambios localmente
+    git reset id-commit
+
+    # desecha todo el historial y regresa al commit especificado
+    git reset --hard id-commit
+
+# Resetear un repositorio
+
+Si en algún momento tienes la necesidad de resetear el historial de cambios de un repositorio para que quede como si lo acabarás de crear ejecuta esta serie de comandos:
+
+    cd carpeta-repositorio
+    mv .git/config ~/saved_git_config
+    rm -rf .git
+    git init
+    git branch -M main
+    git add .
+    git commit -m "Commit inicial"
+    mv ~/saved_git_config .git/config
+    git push --force origin main
+
+# Remotos
+
+Referencia que apunta al repositorio en la nube donde se visualiza todo el contenido
+
+    # muestra los orígenes remotos del repositorio
+    git remote
+
+    # muestra los orígenes remotos con detalle
+    git remote -v
+
+    # agregar un orígen remoto
+    git remote add nombre-orígen https://github.com/usuario/repositorio.git
+
+    # renombrar un orígen remoto
+    git remote rename nombre-viejo nombre-nuevo
+
+    # eliminar un orígen remoto
+    git remote remove nombre-orígen
+
+    # descargar una rama remota a local diferente a la principal
+    git checkout --track -b rama-remota origin/rama-remota
+
+# Etiquetas
+
+Con esta opción git nos permite versionar nuestro código, librería o proyecto.
+Versionado semántico: [Versionado semantico](https://semver.org/lang/es/) # listar etiquetas
+git tag
+
+    # crea una etiqueta
+    git tag numero-versión
+
+    # eliminar una etiqueta
+    git tag -d numero-versión
+
+    # mostrar información de una etiqueta
+    git show numero-versión
+
+    # sincronizando la etiqueta del repositorio local al remoto
+    git add .
+    git  tag v1.0.0
+    git commit -m "v1.0.0"
+    #Apuntas al número de versión
+    git push origin numero-versión
+
+    # generando una etiqueta anotada (con mensaje de commit)
+    git add .
+    git tag -a "v1.0.0" -m "Mensaje de la etiqueta"
+    git push --tags
