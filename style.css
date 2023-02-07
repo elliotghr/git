@@ -1,4 +1,35 @@
+:root {
+  --black: black;
+  --green: rgb(218, 255, 191);
+  --pink: rgb(255, 191, 252);
+}
 html {
-  background-color: rgb(36, 36, 36);
+  background-color: rgb(69, 69, 69);
   color: white;
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex-grow: 1;
+}
+header {
+  padding: 1rem;
+  background-color: rgb(218, 255, 191);
+  color: var(--black);
+}
+footer {
+  padding: 1rem;
+  background-color: var(--pink);
+  color: var(--black);
 }
