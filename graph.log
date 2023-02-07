@@ -1,0 +1,33 @@
+* 52681ec Reseteo del historial
+*   822b582 resolviendo conflicto
+|\  
+| * 432b6c3 Agregando 2 parrafos
+* | d1a5211 Agregando 2 parrafos
+|/  
+*   36fc23f Resolviendo conflicto con palabras en ingles
+|\  
+| * 2f27f05 Agregando ol con inicio, 5 elementos y fin
+* | 1c715c2 Agregando ol con start, 5 elementos y end
+|/  
+*   53bb7fa Resolviendo conflicto merge main/test en el documento index.html
+|\  
+| * dc36017 Agregando index.js al index.html
+* | 5b56981 Agregando estructura al index.html
+|/  
+*   8d5662f Merge branch 'js'
+|\  
+| * 12c1dee Creando index.js
+* |   0398a4b Merge branch 'css'
+|\ \  
+| * | 67102e9 Creando style.css
+* | | e7c825b merge
+|\| | 
+| * | e5e55be Creando index.html
+| |/  
+* / caceb04 fusiones
+|/  
+* 2cd39e9 ignorando archivos .exe
+* 2b68ab3 Creando licencia del repositorio
+* 805401d Agregando más contenido al README
+* 57ac029 Agregando contenido inicial al README
+* 4816ddf First commit 😉
