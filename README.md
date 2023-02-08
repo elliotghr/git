@@ -2,10 +2,6 @@
 
 From jonathan Mircha 😊👍
 
-Agregando más contenido al *README*
+Mejorando el README
 
-Versionado al proyecto
-
-Cambio de prueba
-
-Uso de git
+![gitflow](./assets/git-flow.png)
