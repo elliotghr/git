@@ -7,3 +7,5 @@ Agregando más contenido al *README*
 Versionado al proyecto
 
 Cambio de prueba
+
+Uso de git
