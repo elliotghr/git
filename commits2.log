@@ -1,0 +1,240 @@
+commit c4d7bff613362e0f21818399a345bab76babaa29
+Author: ElliotGhr <gusnroses.2617@gmail.com>
+Date:   Mon Jun 26 19:40:09 2023 -0600
+
+    ol, ul modificados
+
+commit 62c7f77901a391aebdc1f4f19a9cc2ed237d16c4
+Merge: 4a74a07 fd6a38a
+Author: ElliotGhr <gusnroses.2617@gmail.com>
+Date:   Mon Jun 26 19:34:36 2023 -0600
+
+    Merge css titulo principal
+
+commit fd6a38a7260f22887d80cf084c4baae9b92712e0
+Author: ElliotGhr <gusnroses.2617@gmail.com>
+Date:   Mon Jun 26 19:25:06 2023 -0600
+
+    Titulo principal centrado
+
+commit 4a74a071cceaf095dc78b6e5a7326db8f103cfbc
+Author: ElliotGhr <gusnroses.2617@gmail.com>
+Date:   Mon Jun 26 19:24:17 2023 -0600
+
+    Titulo centrado
+
+commit 0845f009b3dd4d6f8e01d3f5500e875231f28c81
+Author: ElliotGhr <gusnroses.2617@gmail.com>
+Date:   Mon Jun 26 19:17:27 2023 -0600
+
+    Footer siempre abajo
+
+commit 28606b262fcffd0c291345f49f54e0a9bd6aff07
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Tue Feb 7 18:45:56 2023 -0600
+
+    Guardado historial de commits
+
+commit 45f64113e4aaa96ccd03403be877c5f95ad18b86
+Merge: cd8a78e b92bbaf
+Author: Elliot César <70125366+elliotghr@users.noreply.github.com>
+Date:   Tue Feb 7 18:40:41 2023 -0600
+
+    Merge pull request #2 from ElliotCesar/remote
+    
+    Haciendo mejoras al README
+
+commit b92bbaf8939548a98a1cf6be1eeefcade74a3a17
+Author: Elliot César <gunsnroses.26@hotmail.com>
+Date:   Tue Feb 7 18:37:44 2023 -0600
+
+    Haciendo mejoras al README
+
+commit cd8a78efdde8b85cb030442ccc79c19141bd2707
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Tue Feb 7 18:31:33 2023 -0600
+
+    Colaboración en github
+
+commit ae2bf1f462e63337c4d458a96b8fa75f9383224f
+Merge: cb81232 8fdaed1
+Author: Elliot César <70125366+elliotghr@users.noreply.github.com>
+Date:   Tue Feb 7 18:25:11 2023 -0600
+
+    Merge pull request #1 from ElliotCesar/readme-elliotcesar
+    
+    Readme elliotcesar
+
+commit 8fdaed18316db055db1e7c4b9b084516c5c76e72
+Author: Elliot César <gunsnroses.26@hotmail.com>
+Date:   Tue Feb 7 18:09:18 2023 -0600
+
+    Aciendo  mejoras al readme del repositorio
+
+commit ee3242ebc2ce453ee6cb3fbc1323a864ea2f1224
+Author: Elliot César <gunsnroses.26@hotmail.com>
+Date:   Tue Feb 7 16:55:16 2023 -0600
+
+    Cambio de prueba de la segunda cuenta de git
+
+commit cb8123223c518cbbfd7bdc68720ae6dd667fb317
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Tue Feb 7 16:16:32 2023 -0600
+
+    Creando gh pages
+
+commit 88fbdfde7bfb32ef40e0d2455af39588928dd50b
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Tue Feb 7 15:49:11 2023 -0600
+
+    v1.1.0
+
+commit e02c531af84aa3e3a5d550654b6604093d942d53
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Tue Feb 7 15:48:10 2023 -0600
+
+    Etiquetas y Remotos
+
+commit c7b388675df8c188db5fcf053c7d0e5bd602063b
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Tue Feb 7 12:01:43 2023 -0600
+
+    Añadiendo graph.log
+
+commit 52681ecdb6ebee2a1469c3eb911966b5d22891e0
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Tue Feb 7 11:54:14 2023 -0600
+
+    Reseteo del historial
+
+commit 822b58266ee71d58bafc77807f3b45d7301ddc4d
+Merge: d1a5211 432b6c3
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Fri Feb 3 13:55:01 2023 -0600
+
+    resolviendo conflicto
+
+commit d1a521129b15a4b2fae1b007758be80794f06d97
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Fri Feb 3 13:38:23 2023 -0600
+
+    Agregando 2 parrafos
+
+commit 432b6c3fe183f0236fa6b42597c0e7eaa5aa4ba1
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Fri Feb 3 13:38:23 2023 -0600
+
+    Agregando 2 parrafos
+
+commit 36fc23fc32feabd4b9121640f7fd638abf793642
+Merge: 1c715c2 2f27f05
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Fri Feb 3 13:35:58 2023 -0600
+
+    Resolviendo conflicto con palabras en ingles
+
+commit 1c715c267274dd864214ac4bad7697a104fd492a
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Fri Feb 3 12:03:47 2023 -0600
+
+    Agregando ol con start, 5 elementos y end
+
+commit 2f27f058d62125052a9c5da3470dc75823317b74
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Fri Feb 3 12:03:47 2023 -0600
+
+    Agregando ol con inicio, 5 elementos y fin
+
+commit 53bb7fa55e7cd075f66c266084f4828100fa4b41
+Merge: 5b56981 dc36017
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Fri Feb 3 11:59:06 2023 -0600
+
+    Resolviendo conflicto merge main/test en el documento index.html
+
+commit dc3601712fb4c77a249f4b11a02e49d37904ee87
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Fri Feb 3 11:53:52 2023 -0600
+
+    Agregando index.js al index.html
+
+commit 5b569818f2f9d326fea187772bcd245f23815ea3
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Fri Feb 3 11:52:31 2023 -0600
+
+    Agregando estructura al index.html
+
+commit 8d5662f4c83886a4bc6214bbd35114b80af747f7
+Merge: 0398a4b 12c1dee
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Fri Feb 3 11:38:29 2023 -0600
+
+    Merge branch 'js'
+
+commit 0398a4b112dcbfbb948c9632cd0392687e53463a
+Merge: e7c825b 67102e9
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Fri Feb 3 11:38:25 2023 -0600
+
+    Merge branch 'css'
+
+commit e7c825b75b4067e4affe05093dee94bcb3a577b7
+Merge: caceb04 e5e55be
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Fri Feb 3 11:38:18 2023 -0600
+
+    merge
+
+commit caceb04f40e4f5bddf84fb6d1d20c101006befd2
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Fri Feb 3 11:34:36 2023 -0600
+
+    fusiones
+
+commit 12c1deea0a36b02dcce7290338c46621e9b2d475
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Thu Feb 2 18:38:46 2023 -0600
+
+    Creando index.js
+
+commit 67102e9eb7646b70c72b237ad4f012c7c1820d81
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Thu Feb 2 18:34:17 2023 -0600
+
+    Creando style.css
+
+commit e5e55be2434085d94a2567d4e8baf7b07d5be79d
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Thu Feb 2 18:29:33 2023 -0600
+
+    Creando index.html
+
+commit 2cd39e9a721cf796405d7cf9df8b2f3634408b48
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Thu Feb 2 17:58:44 2023 -0600
+
+    ignorando archivos .exe
+
+commit 2b68ab3d8dc4c6aae6c2fb7312f723a48c0f8ed5
+Author: Elliot César <70125366+elliotghr@users.noreply.github.com>
+Date:   Thu Feb 2 17:16:02 2023 -0600
+
+    Creando licencia del repositorio
+
+commit 805401d6f59d4b05dd6ef04540213ed87f0d7f23
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Thu Feb 2 17:01:53 2023 -0600
+
+    Agregando más contenido al README
+
+commit 57ac029ca80b4ff1473bef49e65abc43848f7c32
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Thu Feb 2 16:52:23 2023 -0600
+
+    Agregando contenido inicial al README
+
+commit 4816ddf84476131020f03dccd5c6b0dc6de9a687
+Author: elliotghr <gunsnroses.2617@gmail.com>
+Date:   Thu Feb 2 16:48:59 2023 -0600
+
+    First commit 😉
